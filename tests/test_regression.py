@@ -36,3 +36,4 @@ class TestEndToEnd(BaseClass):
         self.driver.find_element(By.XPATH, "//span[text()='Place Order']").click()
         sleep(5)
         print("This is a newly created message for git session.")
+        print("This is a newly created branch develop.")
