@@ -9,6 +9,8 @@ class TestEndToEnd(BaseClass):
     def test_end_to_end(self):
         shop_page = ShopPage(self.driver)
         shop_page.get_add_to_cart().click()
+        shop_page.get_cart_button().click()
+        shop_page.get_view_cart_button().click()
         self.driver.find_element(By.XPATH, "//a[@aria-label='Add a coupon']").click()
 
         self.driver.find_element(By.ID, "wc-block-components-totals-coupon__input-0").send_keys("Tojtech-10$")

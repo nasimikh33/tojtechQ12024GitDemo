@@ -16,3 +16,10 @@ class ShopPage:
 
     def get_add_to_cart(self):
         return self.driver.find_element(*ShopPage.add_to_cart)
+
+    def get_cart_button(self):
+        return self.driver.find_element(*ShopPage.cart_button)
+
+    def get_view_cart_button(self):
+        return self.driver.find_element(*ShopPage.view_cart_button)
+
