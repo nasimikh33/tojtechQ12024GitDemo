@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="43.866" timestamp="2024-06-26T08:26:19.069314" hostname="Tojtechs-MacBook-Pro.local"><testcase classname="test_regression.TestEndToEnd" name="test_end_to_end" time="43.849" /></testsuite></testsuites>
